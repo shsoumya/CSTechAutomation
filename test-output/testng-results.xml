@@ -2,23 +2,27 @@
 <testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-06-19T12:48:43 IST" name="Default suite" finished-at="2023-06-19T12:49:07 IST" duration-ms="23905">
+  <suite started-at="2023-06-19T14:45:35 IST" name="Default suite" finished-at="2023-06-19T14:45:57 IST" duration-ms="21541">
     <groups>
     </groups>
-    <test started-at="2023-06-19T12:48:43 IST" name="Default test" finished-at="2023-06-19T12:49:07 IST" duration-ms="23905">
+    <test started-at="2023-06-19T14:45:35 IST" name="Default test" finished-at="2023-06-19T14:45:57 IST" duration-ms="21541">
       <class name="testCase.RunTestCase">
-        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:testCase.RunTestCase@74ea2410]" started-at="2023-06-19T12:48:43 IST" name="beforeMethod" finished-at="2023-06-19T12:48:53 IST" duration-ms="9519" status="PASS">
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:testCase.RunTestCase@202b0582]" started-at="2023-06-19T14:45:35 IST" name="beforeMethod" finished-at="2023-06-19T14:45:41 IST" duration-ms="6005" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method signature="login()[pri:1, instance:testCase.RunTestCase@74ea2410]" started-at="2023-06-19T12:48:53 IST" name="login" finished-at="2023-06-19T12:48:54 IST" duration-ms="901" status="PASS">
+        <test-method signature="login()[pri:1, instance:testCase.RunTestCase@202b0582]" started-at="2023-06-19T14:45:41 IST" name="login" finished-at="2023-06-19T14:45:42 IST" duration-ms="900" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- login -->
-        <test-method signature="homePage()[pri:2, instance:testCase.RunTestCase@74ea2410]" started-at="2023-06-19T12:48:54 IST" name="homePage" finished-at="2023-06-19T12:49:07 IST" duration-ms="13404" status="PASS">
+        <test-method signature="homePage()[pri:2, instance:testCase.RunTestCase@202b0582]" started-at="2023-06-19T14:45:42 IST" name="homePage" finished-at="2023-06-19T14:45:56 IST" duration-ms="14089" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- homePage -->
+        <test-method is-config="true" signature="configAfterMethod()[pri:0, instance:testCase.RunTestCase@202b0582]" started-at="2023-06-19T14:45:56 IST" name="configAfterMethod" finished-at="2023-06-19T14:45:57 IST" duration-ms="464" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configAfterMethod -->
       </class> <!-- testCase.RunTestCase -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->

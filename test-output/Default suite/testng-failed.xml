@@ -7,6 +7,7 @@
         <methods>
           <include name="homePage"/>
           <include name="beforeMethod"/>
+          <include name="configAfterMethod"/>
         </methods>
       </class> <!-- testCase.RunTestCase -->
     </classes>

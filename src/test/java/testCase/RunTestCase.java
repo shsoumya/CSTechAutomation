@@ -23,8 +23,6 @@ public class RunTestCase extends BaseClass {
 	FileUploadPage fileUpload;
 	StringSelection stringSelection;
 	Robot robot;
-	
-	
 	@Test(priority = 1)
 	public void login() throws IOException
 	{
@@ -43,7 +41,9 @@ public class RunTestCase extends BaseClass {
 		homePage.getorderButton().click();
 		homePage.getaddBulkOrdersOption().click();
 		fileUpload = new FileUploadPage(driver);
-		fileUpload.getfileUploadOption().sendKeys("C:\\Users\\soumy\\OneDrive\\Desktop\\demo-data.xlsx");
+		File file = new File("./commonData/demo-data.xlsx");
+		String path = file.getAbsolutePath();
+		fileUpload.getfileUploadOption().sendKeys(path);
 		fileUpload.getimportButton().click();
 		fileUpload.getvalidateDataButton().click();
 		Thread.sleep(3000);
@@ -54,10 +54,5 @@ public class RunTestCase extends BaseClass {
 		Thread.sleep(5000);
 		TakesScreenshot ts = (TakesScreenshot)driver;
 		FileUtils.copyFile(ts.getScreenshotAs(OutputType.FILE), new File("./errorshots/" + LocalDateTime.now().toString().replace(':', '-') + "validata.png"));
-		
-		
-		
-		
 	}
-	
 }
